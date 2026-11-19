@@ -1,0 +1,28 @@
+{
+  "source": "/home/lbj/数模/传感器数模20260112/DM-Tac W2M_asm.stp",
+  "sha256": "aad42b5547fad945bad82401084bf6ba8d10c97a4d77858cad87813120b0609a",
+  "mesh": "DM-Tac_W2M_asm.stl",
+  "unit": "m",
+  "source_unit": "mm",
+  "bounds_m": [
+    -0.01800010608598981,
+    0.04696281976296892,
+    0.000999642877539267,
+    0.018000099795877144,
+    0.12143684525840001,
+    0.04890891187762709
+  ],
+  "dimensions_m": [
+    0.036000205881866955,
+    0.07447402549543108,
+    0.04790926900008782
+  ],
+  "mounting_orientation": "unconfirmed",
+  "center_translation_m": [
+    3.1450563334201043e-09,
+    -0.08419983251068447,
+    -0.024954277377583177
+  ],
+  "centered_mesh": "DM-Tac_W2M_centered.stl",
+  "collision": "Conservative bounding box including modeled cable"
+}

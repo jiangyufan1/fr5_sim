@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<library path="fairino5_v6_robot_fairino5_v6_group_moveit_ikfast_plugin">
+  <class name="fairino5_v6_robot_fairino5_v6_group/IKFastKinematicsPlugin" type="fairino5_v6_robot_fairino5_v6_group::IKFastKinematicsPlugin" base_class_type="kinematics::KinematicsBase">
+    <description>IKFast61 plugin for closed-form kinematics of fairino5_v6_robot fairino5_v6_group</description>
+  </class>
+</library>

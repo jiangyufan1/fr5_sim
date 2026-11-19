@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "task": "single object_3 pick and place into collection_bin",
+  "success": true,
+  "verified_by": "Gazebo object pose height rise and stable interior box position",
+  "segments": [
+    {
+      "directory": "/data/Projects/fr5_sim/outputs/pick_trial_20261115_044401",
+      "message_counts": {
+        "/clock": 18826,
+        "/fairino5_controller/controller_state": 823,
+        "/gripper_controller/controller_state": 823,
+        "/joint_states": 2465,
+        "/tf": 354,
+        "/tf_static": 1,
+        "/wrist_camera/camera_info": 301,
+        "/wrist_camera/image": 300
+      },
+      "command_events": 3
+    },
+    {
+      "directory": "/data/Projects/fr5_sim/outputs/pick_trial_20261115_044533",
+      "message_counts": {
+        "/clock": 5668,
+        "/fairino5_controller/controller_state": 195,
+        "/gripper_controller/controller_state": 195,
+        "/joint_states": 587,
+        "/tf": 102,
+        "/tf_static": 1,
+        "/wrist_camera/camera_info": 85,
+        "/wrist_camera/image": 86
+      },
+      "command_events": 1
+    },
+    {
+      "directory": "/data/Projects/fr5_sim/outputs/pick_trial_20261115_044716",
+      "message_counts": {
+        "/clock": 20928,
+        "/fairino5_controller/controller_state": 833,
+        "/gripper_controller/controller_state": 833,
+        "/joint_states": 2497,
+        "/tf": 356,
+        "/tf_static": 1,
+        "/wrist_camera/camera_info": 317,
+        "/wrist_camera/image": 317
+      },
+      "command_events": 3
+    }
+  ],
+  "joint_units": "rad",
+  "gripper_units": "m; total width command divided between two finger joints",
+  "action_source": "events.jsonl contains sent joint trajectories; controller_state records desired/actual states",
+  "limitations": [
+    "Three separately recorded phases with unrecorded gaps; not a continuous training-ready episode",
+    "Ground-truth initial scene localization; no vision detector",
+    "Not converted to LeRobot format; no resampling or temporal alignment validated",
+    "Provisional gripper and camera geometry; simulation only"
+  ],
+  "physics_attachment": false
+}

@@ -1,0 +1,26 @@
+# Provisional scene dimensions and camera; SI units, not measured hardware.
+table_top: 0.75
+table_center_x: -0.15
+table_size: [1.6, 1.2, 0.05]
+robot_mount_xyz: [0.45, 0.0, 0.75]
+initial_arm: [0.0, -1.2, 1.6, -1.9, -1.57, 0.0]
+camera_mount_xyz: [0.065, 0.0, 0.025]
+camera_mount_rpy: [0.0, -1.4999919, -1.5596236]
+camera_width: 640
+camera_height: 480
+camera_fps: 15.0
+camera_horizontal_fov: 1.0471975512
+
+
+# First pick-and-place scene. Seeded random layout: change seed for a new episode.
+task:
+  seed: 42
+  object_count: 5
+  cube_size: 0.04
+  min_center_distance: 0.085
+  spawn_region: [-0.34, -0.05, -0.18, 0.16]
+  bin:
+    center_xy: [0.12, -0.30]
+    outer_size_xy: [0.28, 0.26]
+    height: 0.10
+    wall_thickness: 0.01

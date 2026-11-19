@@ -1,0 +1,2 @@
+{"wall_time": 1794688934.2871473, "stage": "target", "name": "object_3", "xyz": [0.0, 0.0, 0.0], "source": "initial_simulation_scene", "tcp_grasp_height": 0.8}
+{"wall_time": 1794688934.4537995, "stage": "failed", "error": "No collision-free IK for both pregrasp and compensated grasp height", "success": false}

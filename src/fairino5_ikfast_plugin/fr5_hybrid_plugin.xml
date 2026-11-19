@@ -1,0 +1,5 @@
+<library path="fr5_hybrid_kinematics">
+  <class name="fr5_kinematics/IKFastWithKDL" type="fr5_kinematics::IKFastWithKDL" base_class_type="kinematics::KinematicsBase">
+    <description>FR5 IKFast with KDL fallback and original-model validation.</description>
+  </class>
+</library>

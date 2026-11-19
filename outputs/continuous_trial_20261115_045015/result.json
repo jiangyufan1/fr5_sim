@@ -1,0 +1,25 @@
+{
+  "success": true,
+  "continuous_recording": true,
+  "phases": [
+    "/data/Projects/fr5_sim/outputs/pick_trial_20261115_045018",
+    "/data/Projects/fr5_sim/outputs/pick_trial_20261115_045040",
+    "/data/Projects/fr5_sim/outputs/pick_trial_20261115_045048"
+  ],
+  "simulation_only": true,
+  "topics": {
+    "/clock": 54290,
+    "/fairino5_controller/controller_state": 2259,
+    "/gripper_controller/controller_state": 2240,
+    "/joint_states": 6799,
+    "/tf": 971,
+    "/tf_static": 1,
+    "/wrist_camera/camera_info": 824,
+    "/wrist_camera/image": 824
+  },
+  "limitations": [
+    "Raw ROS bag; not yet converted/resampled for ACT",
+    "Image and state header timestamps retained; synchronization quality requires validation",
+    "Ground-truth targeting and provisional hardware geometry"
+  ]
+}

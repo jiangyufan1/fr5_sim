@@ -1,0 +1,17 @@
+stdin is not a terminal device. Keyboard handling disabled.[INFO] [1794689450.076817966] [rosbag2_recorder]: Press SPACE for pausing/resuming
+[INFO] [1794689450.077765518] [rosbag2_storage]: Opened database '/data/Projects/fr5_sim/outputs/pick_trial_20261115_045048/rosbag/rosbag_0.db3' for READ_WRITE.
+[INFO] [1794689450.078171800] [rosbag2_recorder]: Listening for topics...
+[INFO] [1794689450.078603182] [rosbag2_recorder]: Event publisher thread: Starting
+[INFO] [1794689450.079535582] [rosbag2_recorder]: Subscribed to topic '/clock'
+[INFO] [1794689450.079590749] [rosbag2_recorder]: Recording...
+[INFO] [1794689450.187545181] [rosbag2_recorder]: Subscribed to topic '/fairino5_controller/controller_state'
+[INFO] [1794689450.188373595] [rosbag2_recorder]: Subscribed to topic '/wrist_camera/camera_info'
+[INFO] [1794689450.188720428] [rosbag2_recorder]: Subscribed to topic '/gripper_controller/controller_state'
+[INFO] [1794689450.189112148] [rosbag2_recorder]: Subscribed to topic '/joint_states'
+[INFO] [1794689450.189485745] [rosbag2_recorder]: Subscribed to topic '/wrist_camera/image'
+[INFO] [1794689451.096868234] [rosbag2_recorder]: Subscribed to topic '/tf'
+[INFO] [1794689451.097251025] [rosbag2_recorder]: Subscribed to topic '/tf_static'
+[INFO] [1794689451.097262429] [rosbag2_recorder]: All requested topics are subscribed. Stopping discovery...
+[INFO] [1794689471.172388510] [rosbag2_cpp]: Writing remaining messages from cache to the bag. It may take a while
+[INFO] [1794689471.173913326] [rosbag2_recorder]: Event publisher thread: Exiting
+[INFO] [1794689471.174322153] [rosbag2_recorder]: Recording stopped

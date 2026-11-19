@@ -1,0 +1,20 @@
+# Placeholder dimensions only, NOT manufacturer specifications. SI units.
+mount_xyz: [0.0, 0.0, 0.12]
+mount_rpy: [0.0, 0.0, 0.0]
+base_size: [0.06, 0.20, 0.04]
+finger_length: 0.09
+finger_thickness: 0.01
+finger_width: 0.04
+max_width: 0.08
+initial_width: 0.06
+finger_speed: 0.04
+
+# Actual STEP geometry, metre scale. X/Y/Z envelope after +/-90deg X rotation.
+sensor_mesh: package://fr5_act_sim/meshes/tactile/DM-Tac_W2M_centered.stl
+sensor_envelope_xyz: [0.036001, 0.047910, 0.074475]
+# Opening is between conservative sensor envelopes, not calibrated contact surfaces.
+
+# Right sensor (lower at initial pose): flipped 180deg about its length axis.
+sensor_visual_rpy:
+  left: [1.5707963267948966, 0.0, 0.0]
+  right: [1.5707963267948966, 0.0, 3.141592653589793]

@@ -1,0 +1,3 @@
+{"wall_time": 1794689017.2217808, "stage": "target", "name": "object_3", "xyz": [-0.1264233478924364, 0.050077825723789826, 0.772], "source": "initial_simulation_scene", "tcp_grasp_height": 0.8}
+{"wall_time": 1794689017.9359882, "stage": "plans_ready", "yaw": 0.0, "pregrasp_points": 105, "approach_points": 47}
+{"wall_time": 1794689017.9360144, "stage": "planning_only_complete"}

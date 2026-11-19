@@ -1,0 +1,14 @@
+# Provisional scene dimensions and camera; SI units, not measured hardware.
+table_top: 0.75
+table_center_x: -0.15
+table_size: [1.6, 1.2, 0.05]
+robot_mount_xyz: [0.45, 0.0, 0.75]
+initial_arm: [0.0, -1.2, 1.6, -1.9, -1.57, 0.0]
+camera_mount_xyz: [0.065, 0.0, 0.025]
+camera_mount_rpy: [0.0, -1.4999919, -1.5596236]
+camera_width: 640
+camera_height: 480
+camera_fps: 15.0
+camera_horizontal_fov: 1.0471975512
+
+cube_xyz: [-0.1438971806037409, -0.17999829785302818, 0.78]

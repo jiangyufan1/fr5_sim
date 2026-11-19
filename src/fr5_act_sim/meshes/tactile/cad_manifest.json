@@ -1,0 +1,49 @@
+[
+  {
+    "source": "/home/lbj/数模/传感器数模20260112/DM-Tac W2L_asm.stp",
+    "sha256": "d54358f2f0222b66ab1eae314c4a0af22eb326303eadebbe645df490f21c690d",
+    "mesh": "DM-Tac_W2L_asm.stl",
+    "unit": "m",
+    "source_unit": "mm",
+    "bounds_m": [
+      -0.0230001036566185,
+      -0.04588012941634719,
+      0.0017456219400994318,
+      0.023000125812458663,
+      0.030263393902327188,
+      0.049843526946890274
+    ],
+    "dimensions_m": [
+      0.04600022946907716,
+      0.07614352331867438,
+      0.04809790500679084
+    ],
+    "mounting_orientation": "unconfirmed"
+  },
+  {
+    "source": "/home/lbj/数模/传感器数模20260112/DM-Tac W2M_asm.stp",
+    "sha256": "aad42b5547fad945bad82401084bf6ba8d10c97a4d77858cad87813120b0609a",
+    "mesh": "DM-Tac_W2M_asm.stl",
+    "unit": "m",
+    "source_unit": "mm",
+    "bounds_m": [
+      -0.01800010608598981,
+      0.04696281976296892,
+      0.000999642877539267,
+      0.018000099795877144,
+      0.12143684525840001,
+      0.04890891187762709
+    ],
+    "dimensions_m": [
+      0.036000205881866955,
+      0.07447402549543108,
+      0.04790926900008782
+    ],
+    "mounting_orientation": "unconfirmed"
+  },
+  {
+    "source": "/home/lbj/数模/传感器数模20260112/DM-Tax X_asm.stp",
+    "sha256": "e3742da1930c1917d259ddfcf9a46bd821a1fc8da46c1fde63104c8f737f9fa2",
+    "error": "STEP parser rejected file; no mesh generated"
+  }
+]

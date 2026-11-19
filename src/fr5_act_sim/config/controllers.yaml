@@ -1,0 +1,38 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 125
+    gripper_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+    fairino5_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+
+fairino5_controller:
+  ros__parameters:
+    joints: [j1, j2, j3, j4, j5, j6]
+    command_interfaces: [position]
+    state_interfaces: [position]
+    allow_partial_joints_goal: false
+    open_loop_control: false
+    state_publish_rate: 50.0
+    action_monitor_rate: 20.0
+    constraints:
+      goal_time: 3.0
+      j1: {trajectory: 0.2, goal: 0.02}
+      j2: {trajectory: 0.2, goal: 0.02}
+      j3: {trajectory: 0.2, goal: 0.02}
+      j4: {trajectory: 0.2, goal: 0.02}
+      j5: {trajectory: 0.2, goal: 0.02}
+      j6: {trajectory: 0.2, goal: 0.02}
+
+gripper_controller:
+  ros__parameters:
+    joints: [gripper_left_joint, gripper_right_joint]
+    command_interfaces: [position]
+    state_interfaces: [position]
+    allow_partial_joints_goal: false
+    constraints:
+      goal_time: 2.0
+      gripper_left_joint: {trajectory: 0.01, goal: 0.001}
+      gripper_right_joint: {trajectory: 0.01, goal: 0.001}
